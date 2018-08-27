@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueMcalender from "../dist/index.js";
+import VueMcalender from "vue-component-monthcalender";
 
 new Vue({
   el: '#app',

@@ -42,6 +42,7 @@
     "typescript": "^2.6.1",
     "vue": "^2.5.16",
     "vue-awesome-swiper": "^3.1.3",
+    "vue-component-monthcalender": "^1.0.0",
     "vue-loader": "^13.5.0",
     "vue-property-decorator": "^7.0.0",
     "vue-template-compiler": "^2.5.11",
