@@ -67,7 +67,7 @@ typescript+vue开发的日历组件，使用swiper库来支持日历滑动功能
 
 ### 组件API
 
-####通过v-model数据双向绑定来控制组件的显示隐藏
+#### 通过v-model数据双向绑定来控制组件的显示隐藏
 
 - calender props
 
@@ -112,4 +112,4 @@ typescript+vue开发的日历组件，使用swiper库来支持日历滑动功能
   ```
 
  ### 备注
- **相互学习共同提高，欢迎使用并且issue **
+ **相互学习共同提高，欢迎使用并且issue**
