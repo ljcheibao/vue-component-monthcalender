@@ -75,14 +75,14 @@ typescript+vue开发的日历组件，使用swiper库来支持日历滑动功能
 | ------------------------ | ------------------------------------------------------------ | ------------- | ------ |
 | option                   | **option**对象提供4个属性值：<br><br>**showHeader**是否显示标题)，<br>**beginDate**(开始时间：yyyy-MM-dd格式)，<br>**endDate**(结束时间：yyyy-MM-dd格式)，<br>**currentDate**(当前时间：yyyy-MM-dd格式) | object        | 空对象 |
 | reset(**预留扩展字段**)  | 是否需要重置初始化生成的日历的每天日期，默认值为false，<br>该值设置为true以后，使用者可设置**status**属性，来自定义修改生成的日历每天日期状态，原来日历中每一项均不可点，即每一项的<br>**enabled**属性会被重置为false | boolean       | false  |
-| status(**预留扩展字段**) | 需要自定义的日期状态数组(reset属性为true有效)，<br>数组的每一项是个object对象，对象提供一下几个属性：<br>**currentDate：**string类型，当前日期格式yyyy-MM-dd<br>**dayClass：**string类型，当前日期显示的样式名称<br>**enabled：**boolean类型，是否可用(可以点击)<br>**default：**boolean类型，是否是默认选中的一天，true为默认选中的一天，<br>**需要注意的是，status的数组对象中，仅有一项default的值为true(有多个日期为选中状态，不符合实际需求吧)** | Array<object> | []     |
+| status(**预留扩展字段**) | 需要自定义的日期状态数组(reset属性为true有效)，<br>数组的每一项是个object对象，对象提供一下几个属性：<br>**currentDate**：string类型，当前日期格式yyyy-MM-dd<br>**dayClass**：string类型，当前日期显示的样式名称<br>**enabled**：boolean类型，是否可用(可以点击)<br>**default**：boolean类型，是否是默认选中的一天，true为默认选中的一天，<br>**需要注意的是，status的数组对象中，仅有一项default的值为true(有多个日期为选中状态，不符合实际需求吧)** | Array<object> | []     |
 
 
 - calender  events
 
 | 方法名称 | 说明             | 参数                                                         |
 | -------- | ---------------- | ------------------------------------------------------------ |
-| on-click | 日历上某一天触发 | 当前日期对象，对象有以下属性：<br><br>**currentDate：**选中的日期，格式：yyyy-MM-dd，<br>**dayClass：**类名称，<br>**dayDesc/day：**几号，如：2，<br>**enabled：**是否可以点击，true表示可以点击 |
+| on-click | 日历上某一天触发 | 当前日期对象，对象有以下属性：<br><br>**currentDate**：选中的日期，格式：yyyy-MM-dd，<br>**dayClass**：类名称，<br>**dayDesc/day**：几号，如：2，<br>**enabled**：是否可以点击，true表示可以点击 |
 | on-slide | 左右滑动日历触发 | 返回滑动到的下一个日历的第一天日期，格式：yyyy-MM-dd格式     |
 
 
