@@ -10,7 +10,7 @@ new Vue({
     return {
       visible:true,
       options: {
-        showHeader: false,
+        showHeader: true,
         beginDate: "2017-07-30",
         endDate: "2018-12-12",
         currentDate: "2018-08-03"
