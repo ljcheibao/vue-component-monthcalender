@@ -1,6 +1,6 @@
-### vue 日历(以周为单位)组件
+### vue 日历(以月为单位)组件
 
-typescript+vue开发的日历组件，使用swiper库来支持日历滑动功能，简单易用
+typescript+vue开发的以月份为基础单位的日历组件，使用swiper库来支持日历滑动功能，简单易用
 
 [![npm](https://img.shields.io/npm/l/vue-component-monthcalender.svg)](LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/vue-component-monthcalender.svg)](https://www.npmjs.com/package/vue-component-monthcalender)
